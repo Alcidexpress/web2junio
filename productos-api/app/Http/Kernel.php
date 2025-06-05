@@ -1,0 +1,6 @@
+protected $routeMiddleware = [
+    // ...
+    'auth'       => \App\Http\Middleware\Authenticate::class,
+    'auth:api'   => \Tymon\JWTAuth\Http\Middleware\Authenticate::class,
+    // ...
+];
